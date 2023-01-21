@@ -7,8 +7,8 @@ If you want to see his dotfiles you can find them here: https://github.com/craft
 
 Here is the Youtube video i watched to setup Neovim: https://www.youtube.com/watch?v=ajmK0ZNcM4Q
 
-Contents
-<hr>
+
+# Contents
 
 <ul>
   <li>fish-shell</li>
