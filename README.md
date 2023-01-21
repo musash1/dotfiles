@@ -1,5 +1,4 @@
 # dotfiles
-<hr>
 
 Hello, these are my dotfiles for my Terminal setup on WSL2 and Iterm.
 My Neovim setup is heavily inspired by @craftzdog.
