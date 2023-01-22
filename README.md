@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/83016329/213932769-b5a62cf5-1956-4053-ab18-0c22eaea0cb0.png)
+
+
 # dotfiles
 
 Hello, these are my dotfiles for my Terminal setup on WSL2 and Iterm.
