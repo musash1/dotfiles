@@ -12,3 +12,6 @@ lspconfig.setup {
 }
 
 require 'lspconfig'.tailwindcss.setup {}
+require 'lspconfig'.rust_analyzer.setup {}
+require 'lspconfig'.tsserver.setup {}
+require 'lspconfig'.eslint.setup {}
