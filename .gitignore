@@ -1,0 +1,10 @@
+JetBrains/*
+Microsoft\\VisualStudio\ Services/
+NuGet/*
+coc/*
+configstore/*
+iterm2/*
+micro/*
+omf/*
+stetic/*
+xbuild/*
