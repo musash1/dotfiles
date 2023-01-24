@@ -1,0 +1,15 @@
+JetBrains/*
+Microsoft\\VisualStudio\ Services/
+NuGet/*
+coc/*
+configstore/*
+iterm2/*
+micro/*
+omf/*
+stetic/*
+xbuild/*
+.mono/*
+fish/fish_variables
+fish/fish_plugins
+fish/functions/*
+!fish/functions/ide.fish
