@@ -1,3 +1,3 @@
-function ide 
+function ide
   bash ~/.config/shell_commands/ide.sh
 end
