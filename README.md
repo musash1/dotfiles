@@ -1,7 +1,6 @@
 ![image](https://github.com/musash1/dotfiles/blob/master/Screenshot%202023-01-22%20191250.png?raw=true)
 ![image](https://user-images.githubusercontent.com/83016329/214340392-5742b56b-ceb8-4699-8c70-e56d3b687606.png)
 ![image](https://user-images.githubusercontent.com/83016329/214340499-1447d71c-1ee4-441d-84e2-3038c510f8a3.png)
-<img src="https://user-images.githubusercontent.com/83016329/214340499-1447d71c-1ee4-441d-84e2-3038c510f8a3.png"  width="600" height="auto">
 
 
 # dotfiles
