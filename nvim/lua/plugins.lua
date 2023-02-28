@@ -31,9 +31,11 @@ packer.startup(function(use)
   use 'MunifTanjim/prettier.nvim' -- Prettier plugin for Neovim's built-in LSP client
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
+  use 'leafOfTree/vim-svelte-plugin'
 
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
+  use 'ThePrimeagen/vim-be-good'
 
   use 'nvim-lua/plenary.nvim' -- Common utilites
   use 'nvim-telescope/telescope.nvim'
@@ -45,4 +47,11 @@ packer.startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
 
+  use({
+    'rose-pine/neovim',
+    as = 'rose-pine',
+    config = function()
+      vim.cmd('colorscheme rose-pine')
+    end
+  })
 end)

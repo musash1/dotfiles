@@ -14,3 +14,4 @@ lspconfig.setup {
 require 'lspconfig'.tailwindcss.setup {}
 require 'lspconfig'.eslint.setup {}
 require 'lspconfig'.rust_analyzer.setup {}
+require 'lspconfig'.svelte.setup {}
