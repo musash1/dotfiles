@@ -37,6 +37,9 @@ packer.startup(function(use)
   use 'windwp/nvim-ts-autotag'
   use 'ThePrimeagen/vim-be-good'
 
+  use 'windwp/nvim-autopairs'
+  use 'windwp/nvim-ts-autotag'
+
   use 'nvim-lua/plenary.nvim' -- Common utilites
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
