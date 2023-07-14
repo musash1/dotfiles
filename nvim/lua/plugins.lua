@@ -13,22 +13,22 @@ packer.startup(function(use)
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
   use 'kyazdani42/nvim-web-devicons' -- File icons
-  use 'glepnir/lspsaga.nvim' -- LSP UIs
-  use 'L3MON4D3/LuaSnip' -- Snippet
-  use 'hoob3rt/lualine.nvim' -- Statusline
-  use 'onsails/lspkind-nvim' -- vscode-like pictograms
-  use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's build-in LSP
-  use 'hrsh7th/nvim-cmp' -- Completion
-  use 'neovim/nvim-lspconfig' -- LSP
-  use 'simrat39/rust-tools.nvim' -- Adds extra functionality over rust analyzer
+  use 'glepnir/lspsaga.nvim'         -- LSP UIs
+  use 'L3MON4D3/LuaSnip'             -- Snippet
+  use 'hoob3rt/lualine.nvim'         -- Statusline
+  use 'onsails/lspkind-nvim'         -- vscode-like pictograms
+  use 'hrsh7th/cmp-buffer'           -- nvim-cmp source for buffer words
+  use 'hrsh7th/cmp-nvim-lsp'         -- nvim-cmp source for neovim's build-in LSP
+  use 'hrsh7th/nvim-cmp'             -- Completion
+  use 'neovim/nvim-lspconfig'        -- LSP
+  use 'simrat39/rust-tools.nvim'     -- Adds extra functionality over rust analyzer
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
 
   use 'jose-elias-alvarez/null-ls.nvim' -- Ue Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
-  use 'MunifTanjim/prettier.nvim' -- Prettier plugin for Neovim's built-in LSP client
+  use 'MunifTanjim/prettier.nvim'       -- Prettier plugin for Neovim's built-in LSP client
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
   use 'leafOfTree/vim-svelte-plugin'

@@ -24,7 +24,8 @@ ts.setup {
     "lua",
     "rust",
     "svelte",
-    "typescript"
+    "typescript",
+    "astro"
   },
   autotag = {
     enable = true,

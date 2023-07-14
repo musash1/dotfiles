@@ -96,7 +96,6 @@ nvim_lsp.lua_ls.setup {
         -- Get the language server to recognize the `vim` global
         globals = { 'vim' },
       },
-
       workspace = {
         -- Make the server aware of Neovim runtime files
         library = vim.api.nvim_get_runtime_file("", true),
@@ -118,7 +117,10 @@ nvim_lsp.cssls.setup {
 
 nvim_lsp.astro.setup {
   on_attach = on_attach,
-  capabilities = capabilities
+  capabilities = capabilities,
+  init_options = {
+    typescript = '/usr/local/lib/node_modules/typescript/lib'
+  }
 }
 
 nvim_lsp.rust_analyzer.setup {
@@ -136,11 +138,11 @@ nvim_lsp.svelte.setup {
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {
-  underline = true,
-  update_in_insert = false,
-  virtual_text = { spacing = 4, prefix = "●" },
-  severity_sort = true,
-}
+    underline = true,
+    update_in_insert = false,
+    virtual_text = { spacing = 4, prefix = "●" },
+    severity_sort = true,
+  }
 )
 
 -- Diagnostic symbols in the sign column (gutter)
@@ -185,7 +187,6 @@ local opts = {
       other_hints_prefix = "",
     },
   },
-
   -- all the opts to send to nvim-lspconfig
   -- these override the defaults set by rust-tools.nvim
   -- see https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#rust_analyzer
@@ -232,7 +233,6 @@ cmp.setup({
       select = true,
     }),
   },
-
   -- Installed sources
   sources = {
     { name = "nvim_lsp" },
