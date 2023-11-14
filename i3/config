@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #8ABEB7 #8ABEB7 #ffffff #8ABEB7   #8ABEB7
+client.focused          #d3d3d3 #d3d3d3 #ffffff #d3d3d3   #d3d3d3
 client.focused_inactive #2c3439 #2c3439 #ffffff #484e50   #2c3439
 client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #665588 #ffffff #665588   #665588
@@ -193,17 +193,17 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
 # borders
-gaps inner 0 
-gaps outer 0 
+gaps inner 5 
+gaps outer 3 
 for_window [class="^.*"] border pixel 1 
 
 # apps
-exec_always feh --bg-fill $HOME/Pictures/vagabond.jpg
+exec_always feh --bg-fill $HOME/Pictures/Kojiro.png
 exec_always sh ~/display.sh
 exec_always alias vim=nvim
 exec_always alias l=ls
 exec_always alias ll="ls -la"
-exec --no-startup-id sh ~/.config/i3/scripts/launch_polybar.sh
+exec_always sh ~/.config/i3/scripts/launch_polybar.sh
 exec --no-startup-id dunst
 exec --no-startup-id sleep 6 && setxkbmap -layout us,ch -option 'grp:alt_shift_toggle'
 exec --no-startup-id xinput --set-prop 15 'libinput Accel Speed' -0.4
