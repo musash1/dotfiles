@@ -15,3 +15,5 @@ require 'lspconfig'.tailwindcss.setup {}
 require 'lspconfig'.tsserver.setup {}
 require 'lspconfig'.eslint.setup {}
 require 'lspconfig'.svelte.setup {}
+require 'lspconfig'.jdtls.setup {}
+require 'lspconfig'.pyright.setup {}

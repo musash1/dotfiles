@@ -2,34 +2,41 @@ local status, ts = pcall(require, "nvim-treesitter.configs")
 if (not status) then return end
 
 ts.setup {
-  highlight = {
-    enable = true,
-    disable = {},
-  },
-  indent = {
-    enable = true,
-    disable = {},
-  },
-  ensure_installed = {
-    "markdown",
-    "tsx",
-    "toml",
-    "fish",
-    "php",
-    "json",
-    "yaml",
-    "css",
-    "html",
-    "lua",
-    "rust",
-    "svelte",
-    "typescript",
-    "c",
-    "yaml"
-  },
-  autotag = {
-    enable = true,
-  },
+    highlight = {
+        enable = true,
+        disable = {},
+    },
+    indent = {
+        enable = true,
+        disable = {},
+    },
+    ensure_installed = {
+        "markdown",
+        "tsx",
+        "toml",
+        "fish",
+        "php",
+        "json",
+        "yaml",
+        "css",
+        "html",
+        "lua",
+        "rust",
+        "svelte",
+        "typescript",
+        "c",
+        "cpp",
+        "yaml",
+        "java",
+        "python",
+        "zig",
+        "go",
+        "elixir",
+        "kotlin"
+    },
+    autotag = {
+        enable = true,
+    },
 }
 
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
