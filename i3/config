@@ -55,7 +55,8 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+# bindsym $mod+d exec --no-startup-id dmenu-run
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -164,10 +165,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym l resize shrink width 10 px or 10 ppt
         bindsym j resize grow height 10 px or 10 ppt
         bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+        bindsym h resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -195,15 +196,17 @@ client.background       #ffffff
 # borders
 gaps inner 5 
 gaps outer 3 
-for_window [class="^.*"] border pixel 1 
+for_window [class="^.*"] border pixel 2 
 
 # apps
-exec_always feh --bg-fill $HOME/Pictures/Kojiro.png
+exec_always feh --bg-fill $HOME/pictures/Kojiro.jpg
 exec_always sh ~/display.sh
 exec_always alias vim=nvim
 exec_always alias l=ls
 exec_always alias ll="ls -la"
 exec_always sh ~/.config/i3/scripts/launch_polybar.sh
 exec --no-startup-id dunst
-exec --no-startup-id sleep 6 && setxkbmap -layout us,ch -option 'grp:alt_shift_toggle'
-exec --no-startup-id xinput --set-prop 15 'libinput Accel Speed' -0.4
+exec_always xinput --set-prop 16 'libinput Accel Speed' -0.6
+exec_always --no-startup-id sleep 6 && setxkbmap -layout us,ch -option 'grp:alt_shift_toggle'
+exec_always --no-startup-id setxkbmap -option caps:swapescape
+exec_always --no-startup-id picom &
