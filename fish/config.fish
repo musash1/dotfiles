@@ -53,3 +53,8 @@ set LOCAL_CONFIG (dirname (status --current-filename))/config-local.fish
 if test -f $LOCAL_CONFIG
   source $LOCAL_CONFIG
 end
+
+export PATH="$PATH:/Users/luisgjokaj/.foundry/bin"
+
+# Created by `pipx` on 2023-12-06 06:53:19
+set PATH $PATH /Users/luisgjokaj/Library/Python/3.9/bin
