@@ -1,0 +1,49 @@
+import = ["/home/luis/.config/alacritty/carbonfox.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 17
+
+[font.bold]
+family = "Berkeley Mono Variable"
+style = "Bold"
+
+[font.bold_italic]
+family = "Berkeley Mono Variable"
+style = "bold_italic"
+
+[font.italic]
+family = "Berkeley Mono Variable"
+style = "italic"
+
+[font.normal]
+family = "Berkeley Mono Variable"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10

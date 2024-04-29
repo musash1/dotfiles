@@ -11,6 +11,10 @@ prettier.setup {
     'typescriptreact',
     'json',
     'scss',
-    'less'
+    'less',
+    'yml',
+    'rust',
+    'c',
+    'java'
   }
 }
