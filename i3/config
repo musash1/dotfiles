@@ -199,14 +199,14 @@ gaps outer 3
 for_window [class="^.*"] border pixel 2 
 
 # apps
-exec_always feh --bg-fill $HOME/pictures/Kojiro.jpg
+exec_always feh --bg-fill $HOME/pictures/musashi.jpg
 exec_always sh ~/display.sh
 exec_always alias vim=nvim
 exec_always alias l=ls
 exec_always alias ll="ls -la"
 exec_always sh ~/.config/i3/scripts/launch_polybar.sh
 exec --no-startup-id dunst
-exec_always xinput --set-prop 16 'libinput Accel Speed' -0.6
+exec_always xinput --set-prop "Logitech USB Receiver" 'libinput Accel Speed' -0.6
 exec_always --no-startup-id sleep 6 && setxkbmap -layout us,ch -option 'grp:alt_shift_toggle'
 exec_always --no-startup-id setxkbmap -option caps:swapescape
 exec_always --no-startup-id picom &
