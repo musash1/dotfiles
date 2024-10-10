@@ -54,6 +54,7 @@ packer.startup(function(use)
     use 'craftzdog/solarized-osaka.nvim'
     use 'olimorris/onedarkpro.nvim'
     use 'bluz71/vim-moonfly-colors'
-    use 'xero/miasma.nvim'
-    use 'rktjmp/lush.nvim'
+    use 'cocopon/iceberg.vim'
+    use 'sainnhe/gruvbox-material'
+    use 'catppuccin/nvim'
 end)

@@ -53,11 +53,18 @@ require('onedarkpro').setup({
     }
 })
 
+require('catppuccin').setup({
+    flavour = "macchiato"
+})
+
+
 -- vim.cmd("colorscheme solarized-osaka")
 -- vim.cmd("colorscheme kanagawa")
 -- vim.cmd("colorscheme moonfly")
 -- vim.cmd("colorscheme lush")
--- vim.cmd("colorscheme miasma")
 -- vim.cmd("colorscheme gruber-darker")
 -- vim.cmd("colorscheme onedark")
-vim.cmd("colorscheme gruvbox")
+-- vim.cmd("colorscheme gruvbox")
+--vim.cmd("colorscheme gruvbox-material")
+-- vim.cmd("colorscheme iceberg")
+vim.cmd("colorscheme catppuccin")

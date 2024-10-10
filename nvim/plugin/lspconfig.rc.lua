@@ -151,7 +151,16 @@ nvim_lsp.asm_lsp.setup {
 
 nvim_lsp.zls.setup {
     on_attach = on_attach,
-    capabilities = capabilities
+    capabilities = capabilities,
+    settings = {
+        zls = {
+            Zls = {
+                enable_snippets = true,
+                enable_autofix = true,
+                enable_import_embedfile_argument_completions = true,
+            }
+        }
+    },
 }
 
 nvim_lsp.gopls.setup {
