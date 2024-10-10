@@ -1,1 +1,1 @@
-vim.opt.clipboiard:append { 'unnamedplus' }
+vim.opt.clipboard:append { 'unnamedplus' }
