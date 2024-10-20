@@ -15,6 +15,7 @@ Here is the Youtube video i watched to setup Neovim: https://www.youtube.com/wat
 <ul>
   <li>fish-shell</li>
   <li>Neovim</li>
-  <li>omf</li>
+  <li>alacritty</li>
   <li>tmux</li>
+  <li>rofi</li>
 </ul>
