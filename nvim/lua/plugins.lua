@@ -57,4 +57,5 @@ packer.startup(function(use)
     use 'cocopon/iceberg.vim'
     use 'sainnhe/gruvbox-material'
     use 'catppuccin/nvim'
+    use 'sainnhe/everforest'
 end)
