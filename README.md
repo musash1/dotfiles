@@ -1,4 +1,4 @@
-![image]([https://github.com/musash1/dotfiles/blob/master/Screenshot%202023-01-22%20191250.png?raw=true])
+![image](https://github.com/musash1/dotfiles/blob/master/Screenshot%202023-01-22%20191250.png?raw=true)
 
 # dotfiles
 
