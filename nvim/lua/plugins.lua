@@ -58,4 +58,22 @@ packer.startup(function(use)
     use 'sainnhe/gruvbox-material'
     use 'catppuccin/nvim'
     use 'sainnhe/everforest'
+    use {
+        "nvim-neotest/neotest",
+        requires = {
+            "nvim-neotest/nvim-nio",
+            "nvim-lua/plenary.nvim",
+            "antoinemadec/FixCursorHold.nvim",
+            "nvim-treesitter/nvim-treesitter"
+        }
+    }
+    use {
+        "rcasia/neotest-java",
+        "rouge8/neotest-rust",
+        "codymikol/neotest-kotlin",
+        "nvim-neotest/neotest-go",
+        "nvim-neotest/neotest-plenary",
+        "nvim-neotest/neotest-vim-test",
+        "mfussenegger/nvim-jdtls"
+    }
 end)
