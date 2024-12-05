@@ -1,4 +1,4 @@
-local status, ts = require("nvim-ts-autotag").setup {
+local status, ts = require("nvim-treesitter.configs").setup {
     highlight = {
         enable = true,
         disable = {},
