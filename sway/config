@@ -34,7 +34,7 @@ set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 output * bg $HOME/Downloads/frieren.jpeg fill
 
 output HDMI-A-5 resolution 1920x1080 position 0,0
-output DP-4 resolution 2560x1440@360Hz position 1920,0
+output DP-4 scale 1.25 resolution 2560x1440@360Hz position 1920,0
 output DP-3 resolution 1920x1200 position 4480,0
 
 #
